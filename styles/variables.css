@@ -1,0 +1,9 @@
+:root {
+  --light-gray-200: #d2d2d2;
+  --light-gray-300: #8d8d8d;
+  --dark-gray: #3b3735;
+  --white: #fff;
+  --orange: #e76f51;
+  --transition-200ms: all 200ms ease-in-out;
+  --transition-500ms: all 500ms ease-in-out;
+}

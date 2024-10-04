@@ -1,0 +1,41 @@
+@media (min-width: 576px) {
+  .container {
+    width: 56rem;
+  }
+  .header__title {
+    font-size: 4rem;
+  }
+  .header__caption {
+    max-width: 48rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 72rem;
+  }
+  .desktop-menu {
+    display: flex;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .hamburger-menu-btn {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 96rem;
+  }
+  .desktop-btns {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 114rem;
+  }
+}
