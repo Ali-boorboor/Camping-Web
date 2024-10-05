@@ -10,4 +10,5 @@
   --primary-font: "Roboto Regular", Arial, Helvetica, sans-serif;
   --primary-font-md: "Roboto Medium", Arial, Helvetica, sans-serif;
   --secondary-font: "Archivo Black", Arial, Helvetica, sans-serif;
+  --box-shadow: 0.1rem 0.1rem 0.5rem var(--light-gray-200);
 }
