@@ -1,0 +1,58 @@
+.main {
+  margin-top: -16rem;
+}
+/* 
+
+===================
+  services section
+===================
+
+*/
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.service {
+  background-color: var(--white);
+  color: var(--dark-gray);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+  width: 30rem;
+  height: 26rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.service__img {
+  display: block;
+  width: 9rem;
+  height: 9rem;
+  object-fit: contain;
+}
+
+.service__title {
+  font-family: var(--secondary-font);
+  font-size: 1.8rem;
+}
+
+.service__caption {
+  max-width: 29rem;
+  min-width: 27rem;
+  width: 100%;
+}
+/* 
+
+=======================
+  Destinations section
+=======================
+
+*/
