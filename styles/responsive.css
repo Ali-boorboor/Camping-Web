@@ -32,6 +32,10 @@
   .desktop-btns {
     display: block;
   }
+  .newsPaper {
+    justify-content: space-between;
+    text-align: left;
+  }
 }
 
 @media (min-width: 1200px) {

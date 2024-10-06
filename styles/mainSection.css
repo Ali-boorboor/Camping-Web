@@ -63,7 +63,7 @@
   align-items: center;
   justify-content: center;
   gap: 4rem;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 
 .destinations__img {
@@ -192,4 +192,101 @@
 .destinations__link:hover {
   background-color: var(--orange);
   color: var(--white);
+}
+/* 
+
+=====================
+  newspaper section
+=====================
+
+*/
+.newsPaper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  background-color: var(--dark-pink);
+  border-radius: 2rem;
+  padding: 4rem 2rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.newsPaper::before {
+  content: "";
+  position: absolute;
+  background: url("./../images/png/newspaperBack.png") center;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  z-index: -1;
+}
+
+.newsPaper__right-section {
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  z-index: 1;
+}
+
+.newsPaper__title {
+  font-family: var(--secondary-font);
+  font-size: 2.5rem;
+  color: var(--dark-gray);
+}
+
+.newsPaper__caption {
+  font-family: var(--primary-font-md);
+  color: var(--dark-gray);
+  max-width: 40rem;
+}
+
+.newsPaper-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.newsPaper-input__input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.newsPaper-input__icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 1.6rem;
+  padding: 0.6rem 1rem;
+  background-color: var(--orange);
+  color: var(--light-gray-200);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsPaper-input__icon-img {
+  width: 100%;
+  height: 100%;
+}
+
+.newsPaper__left-section {
+  max-width: 40rem;
+  height: 100%;
+}
+
+.newsPaper__left-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

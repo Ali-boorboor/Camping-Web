@@ -130,6 +130,7 @@
   background-color: var(--dark-gray);
   padding: 3rem;
   transition: var(--transition-500ms);
+  z-index: 5;
 }
 
 .mobile-menu--open {
