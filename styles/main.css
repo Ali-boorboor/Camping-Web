@@ -5,6 +5,7 @@
 @import url("./helperClasses.css");
 @import url("./headerSection.css");
 @import url("./mainSection.css");
+@import url("./footerSection.css");
 @import url("./responsive.css");
 
 :root {
@@ -31,4 +32,9 @@ body {
 
 a {
   text-decoration: none;
+}
+
+button {
+  border: none;
+  outline: none;
 }

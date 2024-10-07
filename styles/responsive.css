@@ -8,6 +8,9 @@
   .header__caption {
     max-width: 48rem;
   }
+  .footer-download-app {
+    text-align: left;
+  }
 }
 
 @media (min-width: 768px) {
@@ -35,6 +38,9 @@
   .newsPaper {
     justify-content: space-between;
     text-align: left;
+  }
+  .footer-contents__wrapper {
+    max-width: 60rem;
   }
 }
 

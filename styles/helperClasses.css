@@ -5,4 +5,5 @@
   font-family: var(--primary-font-md);
   padding: 1rem 4rem;
   transition: var(--transition-200ms);
+  box-shadow: var(--box-shadow);
 }
