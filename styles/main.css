@@ -25,7 +25,6 @@
 }
 
 body {
-  overflow-x: hidden;
   font-size: 1.6rem;
   font-family: var(--primary-font);
   line-height: 1.5;

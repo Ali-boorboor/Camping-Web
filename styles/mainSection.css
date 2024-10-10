@@ -1,6 +1,7 @@
 .main {
-  margin-top: -16rem;
+  margin-top: -6rem;
   position: relative;
+  overflow-x: hidden;
 }
 .main::after,
 .main::before {
