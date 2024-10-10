@@ -3,7 +3,7 @@
   background: linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)),
     url("./../images/jpg/header-bg.jpg") center;
   background-size: cover;
-  min-height: 85dvh;
+  min-height: 50rem;
   border-bottom-left-radius: 10rem;
   border-bottom-right-radius: 10rem;
 }

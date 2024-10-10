@@ -26,11 +26,17 @@
   .hamburger-menu-btn {
     display: none;
   }
+  .footer {
+    text-align: left;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     width: 96rem;
+  }
+  .header {
+    min-height: 60rem;
   }
   .desktop-btns {
     display: block;
@@ -42,11 +48,24 @@
   .footer-contents__wrapper {
     max-width: 60rem;
   }
+  .newsPaper::before {
+    width: 70%;
+    background-size: cover;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     width: 114rem;
+  }
+  .footer-contents {
+    justify-content: space-between;
+  }
+  .footer__links-wrapper {
+    justify-content: space-between;
+  }
+  .footer__links {
+    align-items: start;
   }
 }
 
